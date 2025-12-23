@@ -1,0 +1,9 @@
+import re
+
+letters = "ABCEHKMOPTXY"
+pattern = f"^[{letters}][0-9]{{3}}[{letters}]{{2}}$"
+
+n = int(input())
+for _ in range(n):
+    s = input()
+    print("Yes" if re.match(pattern, s) else "No")

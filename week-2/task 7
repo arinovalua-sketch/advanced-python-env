@@ -1,0 +1,19 @@
+from collections import Counter
+
+items = input().split()
+c = Counter(items)
+
+print("Purchase frequency:")
+for k in c:
+    print(k + ":", c[k])
+
+print("Most popular item:", c.most_common(1)[0][0])
+
+print("Purchased once:")
+for k in c:
+    if c[k] == 1:
+        print(k)
+
+print("Sorted by frequency:")
+for k, v in c.most_common():
+    print(k, v)

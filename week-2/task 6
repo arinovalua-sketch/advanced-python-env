@@ -1,0 +1,3 @@
+def all_eq(lst):
+    mx = max(len(s) for s in lst)
+    return [s + "_" * (mx - len(s)) for s in lst]
