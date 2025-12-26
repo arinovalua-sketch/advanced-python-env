@@ -1,6 +1,15 @@
-a, b, c = map(int, input().split())
+a = int(input())
+b = int(input())
+c = int(input())
+max = a
+min = a
+if b > max:
+    max = b
+if c > max:
+    max = c
+if b < min:
+    min = b
+if c < min:
+    min = c
+print(max - min)
 
-max_salary = max(a, b, c)
-min_salary = min(a, b, c)
-
-print(max_salary - min_salary)

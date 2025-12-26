@@ -7,3 +7,4 @@ n = int(input())
 for _ in range(n):
     s = input()
     print("Yes" if re.match(pattern, s) else "No")
+4

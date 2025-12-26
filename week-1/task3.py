@@ -1,7 +1,6 @@
 a = float(input())
-
-integer = int(a)
-fraction = int((a - integer) * 100)
-
-result = fraction + integer / 100
-print(result)
+x = int(a)          
+y = (a - x) * 100  
+y = int(y)
+answer = y + x / 100
+print(answer)
