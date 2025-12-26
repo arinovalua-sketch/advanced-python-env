@@ -1,5 +1,4 @@
-word = input()
+w = input()
 n = int(input())
-
-for c in word:
+for c in w:
     print(c * n)

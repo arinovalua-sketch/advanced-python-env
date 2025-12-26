@@ -1,4 +1,4 @@
-result = int(input())
+a = int(input())
 
-number = (result // 2 - 8) // 5
-print(number)
+n = (a // 2 - 8) // 5
+print(n)

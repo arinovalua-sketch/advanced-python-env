@@ -1,8 +1,8 @@
-first_name = input("Your first name? ")
-last_name = input("Your last name? ")
+nom = input("Your first name? ")
+fam = input("Your last name? ")
 age = input("How old are you? ")
-phone = input("Your phone number? ")
+tel = input("Your phone number? ")
 
-print(first_name, last_name)
+print(nom, fam)
 print(age)
-print(phone)
+print(tel)
