@@ -1,8 +1,10 @@
-s = input()
+a = input()
 ans = 0
-
-for i in range(len(s) - 4):
-    if s[i:i+5] == ">>-->" or s[i:i+5] == "<--<<":
-        ans += 1
-
+for i in range(0, len(a)):
+    part = a[i:i+5]
+    if part == ">>-->" :
+        ans = ans + 1
+    if part == "<--<<" :
+        ans = ans + 1
 print(ans)
+
