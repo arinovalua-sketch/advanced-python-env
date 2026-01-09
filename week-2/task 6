@@ -13,6 +13,5 @@ def all_eq(lst):
         result.append(s)
 
     return result
-print("HELLO")
-
+all_eq("hi")
 
